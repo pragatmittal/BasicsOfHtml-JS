@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "A simple ecommerce website with HTML, CSS, JavaScript and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["ecommerce", "html", "css", "javascript", "nodejs"],
+  "author": "",
+  "license": "ISC"
+} 
