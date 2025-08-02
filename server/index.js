@@ -3,8 +3,8 @@ var app = express();
 var port = 3000;
 var path = require("path");
 
-// Serve static files from the parent directory
-app.use(express.static(path.join(__dirname, '..')));
+// Serve static files from the frontend directory
+app.use(express.static(path.join(__dirname, '..', 'frontend')));
 
 // Add a GET endpoint for products
 app.get('/api/products', function(req, res) {
